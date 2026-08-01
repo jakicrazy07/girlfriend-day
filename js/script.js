@@ -33,12 +33,14 @@ function openGallery() {
       });
   }
 
+  // Mengubah halaman welcome menjadi hilang
   document.getElementById("welcome").style.display = "none";
+  // Menampilkan halaman galeri foto
   document.getElementById("gallery").style.display = "flex";
 
-  // Foto baru diupdate SAAT galeri dibuka agar tidak error di awal
   updatePhoto();
 }
+
 
 function updatePhoto(){
   // Memastikan elemen galeri ada sebelum diubah kodenya
