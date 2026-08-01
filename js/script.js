@@ -1,3 +1,4 @@
+alert("script jalan");
 const photos = [
   "foto1.jpg",
   "foto2.jpg",
