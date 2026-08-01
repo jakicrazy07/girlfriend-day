@@ -35,7 +35,6 @@ if (bgm) {
 
 document.getElementById("welcome").style.display = "none";
 document.getElementById("gallery").style.display = "flex";
-
 updatePhoto();
 
 }
