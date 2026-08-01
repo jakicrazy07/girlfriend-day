@@ -33,7 +33,7 @@ function openGallery() {
       });
   }
 
-  document.getElementById("welcome").style.style.display = "none";
+  document.getElementById("welcome").style.display = "none";
   document.getElementById("gallery").style.display = "flex";
 
   // Foto baru diupdate SAAT galeri dibuka agar tidak error di awal
